@@ -1,0 +1,78 @@
+body{
+    background: #CCD1D1 ;
+}
+
+/* Estilos generales para el formulario */
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos para las etiquetas */
+label {
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="time"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Cambia el color del botón al pasar el mouse sobre él */
+input[type="submit"]:hover {
+    background-color: #68a7ea;
+}
+
+iframe {
+    align-items: center;
+    position: absolute;
+}
+
+#map-container {
+    position: absolute; /* or relative, depending on your layout */
+    top: 50%; /* adjust the top position to your needs */
+    left: 82%; /* adjust the left position to your needs */
+    transform: translate(-50%, +50%); /* center the map horizontally and vertically */
+    width: 100%; /* adjust the width to your needs */
+    height: 300px; /* adjust the height to your needs */
+  }
+
+  h1 {
+    position: absolute;
+    top: 440px;
+    left: 650px;
+  }
+
+  .texto {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: block;
+  }
+
+  .texto {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+  }

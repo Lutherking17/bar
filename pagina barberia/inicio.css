@@ -1,0 +1,122 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: relative;
+    height: 50vh;
+    background-image: url('https://www.milenio.com/uploads/media/2016/06/16/the-barber-spa-the-shaving.jpeg'); /* Asegúrate de usar la imagen de fondo correcta */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Añade una superposición oscura para mejorar la legibilidad del texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.breadcrumb {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb a {
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb li::after {
+    content: '>';
+    margin-left: 5px;
+    color: white;
+}
+
+.breadcrumb li:last-child::after {
+    content: '';
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+
+
+/* Estilos para el contenedor principal */
+.content.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Estilos para el contenedor del título y la imagen */
+  .title.grid-full {
+    text-align: center;
+    max-width: 800px; /* Ancho máximo del contenido */
+    
+  }
+  
+  /* Estilos para el título h2 y h3 */
+  .title h2,
+  .title h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para la imagen */
+  .title img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el párrafo */
+  .title p.sub-heading {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para el texto adicional en mayúsculas */
+  .title p {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.20em;
+    font-weight: 400;
+    color: #777;
+  }
+  
+  
+  

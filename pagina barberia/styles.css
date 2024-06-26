@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, Helvetica;
+    background: #e8e8e8;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+
+}
+
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #092327;
+
+}
+   
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: relative;
+    height: 50vh;
+    background-image: url('https://thebarbeer.co/wp-content/uploads/2018/05/barberia_06.jpg'); /* Asegúrate de usar la imagen de fondo correcta */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Añade una superposición oscura para mejorar la legibilidad del texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.breadcrumb {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb a {
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb li::after {
+    content: '>';
+    margin-left: 5px;
+    color: white;
+}
+
+.breadcrumb li:last-child::after {
+    content: '';
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.text-container h2 {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.text-container h1 {
+    font-size: 36px;
+    color: #000;
+    margin: 10px 0;
+}
+
+.text-container p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+img {
+    max-width: 300px; /* Ajustar el ancho máximo de las imágenes */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

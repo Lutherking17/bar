@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Menu.css">
+    <title>cortes</title>
+</head>
+<body>
+    <div class="haircut-menu">
+        <h1>Menú de Cortes de Pelo</h1>
+        <div class="haircut" data-price="20">
+            <img src="https://i.pinimg.com/736x/be/db/44/bedb444cde75f783c7e97316f15e5918.jpg" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p>Love fade - S/ 20</p>
+            <button onclick="addToCart('Love fade', 20)">Agregar al Carrito</button>
+        </div>
+        <div class="haircut" data-price="19">
+            <img src="https://th.bing.com/th/id/OIP.S1wt_IEi_p1HO0_NCUlLUgAAAA?rs=1&pid=ImgDetMain" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p>Taper fade - S/ 19</p>
+            <button onclick="addToCart('Taper fade', 19)">Agregar al Carrito</button>
+        </div>
+         <div class="haircut" data-price="15">
+            <img src="https://th.bing.com/th/id/OIP.mtXcbrQnFGgBwW3szkNqswAAAA?rs=1&pid=ImgDetMain" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p> Lower taper fade - S/ 15</p>
+            <button onclick="addToCart('Lower taper fade', 15)">Agregar al Carrito</button>
+        </div> 
+        <div class="haircut" data-price="25">
+            <img src="https://th.bing.com/th/id/OIP.j_ZQ4MUcbFUf-Nc_P07UPwAAAA?rs=1&pid=ImgDetMain" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p>Mullet fade  - S/ 25</p>
+            <button onclick="addToCart('Mullet fade ', 25)">Agregar al Carrito</button>
+        </div> 
+        <div class="haircut" data-price="30">
+            <img src="https://th.bing.com/th/id/OIP.VUm3_cYHH8_ZlZTcoICxnQAAAA?rs=1&pid=ImgDetMain" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p>Mide fade  - S/ 30</p>
+            <button onclick="addToCart('Mide fade', 30)">Agregar al Carrito</button>
+        </div>
+         <div class="haircut" data-price="35">
+            <img src="https://i.pinimg.com/originals/9b/84/f1/9b84f1a459909cd89df576b5fc74829d.jpg" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p>Degradado en v alto - S/ 35</p>
+            <button onclick="addToCart('Degradado en v alto', 35)">Agregar al Carrito</button>
+        </div> 
+        <div class="haircut" data-price="15">
+            <img src="https://i.pinimg.com/originals/af/62/fa/af62faf0a08639d21b07333aa6142562.jpg" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p> Mid fade textured crop  - S/ 15</p>
+            <button onclick="addToCart('Mid fade textured crop', 15)">Agregar al Carrito</button>
+        </div> 
+        <div class="haircut" data-price="25">
+            <img src="https://th.bing.com/th/id/R.fb32085cdd536253d012cd9de5c84665?rik=9jhiwbjNwbGolA&riu=http%3a%2f%2fkioshisako.com.br%2fwp-content%2fuploads%2f2022%2f01%2fmoicano-disfarcado-2.jpg&ehk=cNbCkkZmVRgeRfrnqoPOFvcrN9Rb0I8vz3KLQHN7Y7E%3d&risl=&pid=ImgRaw&r=0" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p>Moicano em v  - S/ 25</p>
+            <button onclick="addToCart('Moicano em v ', 25)">Agregar al Carrito</button>
+        </div> 
+        <div class="haircut" data-price="20">
+            <img src="https://www.menshairstyletrends.com/wp-content/uploads/2021/06/Mullet-perm-in-back-and-fade-leosbarbershop_westryde-768x766.jpg" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p>Mullet taper fade  - S/ 20</p>
+            <button onclick="addToCart('Mullet taper fade', 20)">Agregar al Carrito</button>
+        </div> 
+        <div class="haircut" data-price="25">
+            <img src="https://i.pinimg.com/474x/b9/4f/c6/b94fc6669000596a0b44ac084e8cab82.jpg" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p>French crop - S/ 25</p>
+            <button onclick="addToCart('French crop', 25)">Agregar al Carrito</button>
+        </div>
+        <div class="haircut" data-price="35">
+            <img src="https://st4allthings4p4ci.blob.core.windows.net/allthingshair/allthingshair/wp-content/uploads/sites/13/2023/05/29231941/french-crop-11.jpg" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p>French crop fade texturizado  - S/ 35</p>
+            <button onclick="addToCart('French crop fade texturizado', 35)">Agregar al Carrito</button>
+        </div>
+        <div class="haircut" data-price="22">
+            <img src="https://i.pinimg.com/originals/fa/5d/c6/fa5dc696aafcd9e0da0e2ca94d2729e6.jpg" alt="Imagen de Gel blu" style="width:100px; height:auto;">
+            <p>Corte Quiff - S/ 22</p>
+            <button onclick="addToCart('Corte Quiff', 22)">Agregar al Carrito</button>
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: S/ <span id="total-price">0</span></p>
+        <button id="checkout-button">Finalizar Compra</button>
+        <div id="payment-methods" style="display: none;">
+            <h3>Elige tu método de pago</h3>
+            <button onclick="alert('Yape: 901342952')">Pagar con Yape</button>
+            <button onclick="alert('Cuenta bancaria: 4000-0012-3456-7899')">Pagar por Transferencia Bancaria</button>
+        </div>
+    </div>
+
+    <script src="xd.js"></script>
+
+    
+</ul>
+</body>
+</html>
